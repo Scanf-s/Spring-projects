@@ -1,0 +1,10 @@
+INSERT INTO member(id, name) VALUES (1, 'Alice');
+INSERT INTO member(id, name) VALUES (2, 'Bob');
+INSERT INTO member(id, name) VALUES (3, 'Charlie');
+INSERT INTO member(id, name) VALUES (4, 'Eve');
+INSERT INTO member(id, name) VALUES (5, 'Dave');
+INSERT INTO member(id, name) VALUES (6, 'Frank');
+INSERT INTO member(id, name) VALUES (7, 'Grace');
+INSERT INTO member(id, name) VALUES (8, 'Hank');
+INSERT INTO member(id, name) VALUES (9, 'Ivy');
+INSERT INTO member(id, name) VALUES (10, 'Judy');

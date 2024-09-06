@@ -1,14 +1,12 @@
 package com.sullung.myfirstspringbootproject.model;
 
 import jakarta.persistence.*;
-import lombok.AllArgsConstructor;
-import lombok.Getter;
-import lombok.Setter;
+import lombok.*;
 
 @Getter
 @Setter
 @Entity
-@AllArgsConstructor
+@NoArgsConstructor(access = AccessLevel.PROTECTED) // 기본 생성자
 @Table(name = "member")
 public class Member {
 
@@ -20,10 +18,7 @@ public class Member {
     @Column(name="name", updatable = false)
     private String name;
 
-    public Member() {
-    }
-
-    public Member(String kim) {
-        this.name = kim;
+    public void changeName(String name) {
+        this.name = name;
     }
 }
