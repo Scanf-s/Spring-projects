@@ -1,9 +1,8 @@
 import org.junit.jupiter.api.AfterAll;
-import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
-public class JUnitCycleQuiz {
+public class JUnitCycleQuizTest {
 
     @BeforeEach
     public void hello() {
@@ -11,7 +10,7 @@ public class JUnitCycleQuiz {
     }
 
     @AfterAll
-    static void bye() {
+    public static void bye() {
         System.out.println("Bye!");
     }
 
